@@ -292,31 +292,58 @@ text-align: center;
     gap: 30px;
 
 }
+.svgs:hover{
+    fill: #2196F3;
+}
 .client1{
-    padding: 25px 35px 25px 35px;
+    display: flex;
+    align-items:center;
+    padding: 25px 65px 25px 65px;
     box-sizing: border-box;
-border: 1px solid rgb(175, 177, 184);
-border-radius: 4px;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    fill: rgb(175, 177, 184);
 }
-.clients{
+.client1:hover{
+    fill: #2196F3;
+}
+.client6{
+    display: flex;
+    align-items:center;
     box-sizing: border-box;
-border: 1px solid rgb(175, 177, 184);
-border-radius: 4px;
-padding: 25px 35px 25px 35px;
-fill:rgb(175, 177, 184);
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    padding: 25px 45px 25px 45px;
+    fill: rgb(175, 177, 184);
 }
-.clients:hover{
-    fill: rgb(33, 150, 243);
+
+.client2, .client3{
+    display: flex;
+    align-items:center;
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    padding: 25px 65px 25px 65px;
+    fill: rgb(175, 177, 184);
+}
+.client5{
+    display: flex;
+    align-items:center;
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    padding: 25px 55px 25px 55px;
+    fill: rgb(175, 177, 184);
 }
 .client4{
     display: flex;
     align-items: center;
     fill: rgb(175, 177, 184);
-}
-.client4:hover{
-    fill: rgb(33, 150, 243);
-    
-   
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    padding: 25px 45px 25px 45px;
+    fill: rgb(175, 177, 184);
 }
 .all-items-footer{
     display: flex;
