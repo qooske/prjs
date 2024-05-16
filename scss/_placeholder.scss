@@ -1,0 +1,18 @@
+%txtstyle {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 2%;
+    text-align: left;
+}
+%display{
+    display: flex;
+    align-items:center;
+}
+%border{
+    box-sizing: border-box;
+    border: 1px solid rgb(175, 177, 184);
+    border-radius: 4px;
+    fill: rgb(175, 177, 184);
+}

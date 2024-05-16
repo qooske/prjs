@@ -1,0 +1,765 @@
+@import './scss/placeholder';
+@import './scss/mixin';
+@media (max-width:1200px){
+    .container{
+        width: 768px;
+        }
+    .nav{
+        margin: 0;
+        padding: 0px;
+
+        &__logo{
+            color:rgb(0, 0, 0);
+            @include txtstyle(Raleway, 24px, 700, 28px, 3%, left);
+        }
+        &__ul-menu{
+            display: block;
+            padding: 95px 30px;
+        }
+        &__email-phone-numb{
+            padding: 0px 0px 0px 0px;
+        }
+    }
+    .main{
+        &__section{
+            display: flex;
+            padding: 205px 0px 205px 0px;
+        }
+        &__clients-gp1, &__clients-gp2{
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+        &__img-content{
+            display: none;
+        }
+        &__staff-gp1, &__staff-gp2{
+            display: flex;
+            gap: 30px;
+        }
+        &__staff{
+            width: 354px;
+            height: 536px;
+        }
+        &__section1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__all-items{
+            display: flex;
+            margin: 0;
+            padding: none
+        }
+
+        &__h{
+            @include txtstyle(Roboto, 26px, 900, 42px, 6%, center);
+            padding: 0%;
+            display: flex;
+        }
+        &__button{
+            @include txtstyle(Roboto, 16px, 700, 30px, 6%, center);
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            background: rgb(33, 150, 243);  
+            padding-bottom: 120px;
+        }
+        &__text-main1{
+            display: flex;
+            flex-direction: column;
+        }
+        &__main1-divs, &__main2-divs, &__main3-divs, &__main4-divs{
+
+        }
+        &__main1-divs-img, &__main2-divs-img, &__main3-divs-img, &__main4-divs-img{
+            padding: 25px 145px 25px 145px;
+            width: 354px;
+            height: 224px;
+        }
+        &__main3{
+            margin: 0;
+        }
+        &__main-section2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            display: none;
+        }
+        &__main2{
+            display: flex;
+            flex-direction: column;
+            margin: 0;
+            display: none;
+        }
+        &__row1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            padding: 0px 15px;
+        }
+        &__row2{
+
+        }
+        &__h-main1{
+            display: flex; 
+            padding-top: 30px; 
+            @include txtstyle(Roboto, 14px, 700, 16px, 3%, center);
+        }
+        &__p-main1{
+            padding: 10px 0px 30px 0px;
+            @include txtstyle(Roboto, 14px, 400, 24px, 3%, left);
+        }
+        &__img-content{
+            display: flex;
+            flex-direction: column;
+        }
+        &__h-main2{
+            display: flex;
+            justify-content: center;
+        }
+        &__img-content{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__main-section2{
+            display: flex;
+        }
+        &__img-content-h{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            @include txtstyle(Roboto, 14px, 700, 16px, 3%, center);
+        }
+        &__img-content-main3{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items:center;
+        }
+        &__main-section3{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: #F5F4FA;
+        }
+        &__img-staff{
+            width: 354px;
+            height: 374px;
+        }
+        &__h-text-main3{
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            @include txtstyle(Roboto, 28px, 700, 33px, 3%, center);
+            margin: 0;
+            padding: 60px 0px 30px 0px;
+        }
+        &__h-main3{
+            @include txtstyle(Roboto, 16px, 500, 19px, 3%, center);
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            padding: 30px 105px 10px 105px;
+            margin: 0;
+        }
+        &__p-main3{
+            @include txtstyle(Roboto, 16px, 400, 19px, 3%, center);
+            margin: 0;
+        }   
+        &__h-clients{
+            margin: 0px;
+            display: flex;
+            justify-content: center;
+            align-content: center;
+            padding-bottom: 30px;
+            padding-top: 60px;
+            @include txtstyle(Roboto, 28px, 700, 33px, 3%, center);
+        }
+        &__socialimages{
+            display: flex;
+            gap: 10px;
+        }
+        &__all-divs-last{
+                display:flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+        }
+        &__last-sect{
+            display:flex;   
+        }
+        &__client1-1, &__client2-1 , &__client3-2 , &__client4-2 , &__client5-3 , &__client6-3{
+            display: flex;
+            width: 226px;
+            height: 92px;
+            justify-content: center;
+            align-items: center;
+        }
+        
+    }
+    .footer{
+        &__section{
+            display: flex;  
+            justify-content: center;
+            align-items:center;      
+        }
+        &__logo-link{
+            @include txtstyle(Raleway, 24px, 700, 28px, 3%, center);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }   
+        &__address{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px 0px 60px 0px;
+        }
+        &__street{
+            @include txtstyle(Roboto, 14px, 400, 24px, 3% ,center)
+        }
+        &__email, &__phone{
+            @include txtstyle(Roboto, 14px, 400, 24px, 3%, center) 
+        }
+        &__social-links2{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-bottom: 60px;
+        }
+        &__soc-links{
+            display: flex;
+            gap: 10px;
+        }
+        &__social-links-h{
+            @include txtstyle(Roboto, 14px, 700, 16px, 3%, center) 
+        }
+        &__all-items{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            margin: 0;
+        }
+        &__sub-input{
+            box-sizing: border-box;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            background: rgba(33, 150, 243, 0);
+            padding: 15px 20px;
+            width: 450px;
+            height: 50px;
+        }
+        &__sub-h{
+            @include txtstyle(Roboto, 14px, 700, 16px, 3%, center);
+            color: #FFFFFF;
+            margin: 0;
+            padding: 0px 0px 20px 0px;
+        }
+        &__button-sub{
+            padding:  10px 45px;
+            border: none;
+            border-radius: 4px;
+            box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+            background: rgb(33, 150, 243);
+            color: #FFFFFF;
+            @include txtstyle(Roboto, 16px, 700, 30px, 6%, center);
+        }
+        &__sub-button{
+            padding-top: 60px;
+            padding-bottom: 70px;
+        }
+        &__social-links1-2{
+            display: flex;
+            justify-content: center;
+            align-items: center; 
+            gap: 165px;
+        }
+        &__subscribe{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 0px 0px 60px 0px;
+        }
+
+    }
+}
+
+
+a{
+    text-decoration: none;
+}
+
+.nav{
+    display: flex;
+
+    &__tel-txt:hover{
+        color: rgb(33, 150, 243);
+        @extend %txtstyle;
+    }
+    &__tel-txt{
+        color:rgb(117, 117, 117);
+        @extend %txtstyle;
+    }
+    &__tel{
+        @extend %display;
+        gap: 10px;
+    }
+    &__email-txt{
+        color: rgb(117, 117, 117);
+        @extend %txtstyle;
+    }
+    &__email-txt:hover{
+        color: rgb(33, 150, 243);
+        @extend %txtstyle;
+    }
+    &__email{
+        @extend %display;
+        gap: 10px;
+        color: rgb(117, 117, 117);
+        @extend %txtstyle;
+    }
+    &__email-phone-numb{
+        @extend %display;
+        padding: 30px 0px 30px 0px;
+        gap: 30px;
+    }
+    &__logo{
+
+        @include txtstyle(Raleway, 26px, 700, 31px, 3%, left);
+        color:rgb(0, 0, 0);
+        padding: 25px 0px 25px 0px;
+    }
+    &__span{
+        color:rgb(33, 150, 243);
+    }
+    &__all-items{
+        display:flex;
+        margin: 0px;
+    }
+    &__portals{
+        color: rgb(33, 33, 33);
+        @extend %txtstyle;
+    }
+    &__portals:hover{
+        color: rgb(33, 150, 243);
+        @extend %txtstyle;
+    }
+    &__ul-menu{
+        display: flex;
+        list-style-type: none;
+        margin: 0px;
+        gap: 50px;
+        padding: 30px 320px 30px 90px;
+    }
+    &__icon-envelope-hover, &__icon-smartphone {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: #757575;
+    }
+}
+.main{
+    &__main1{
+        margin: 0;
+    }
+    &__client4-2{
+        @extend %display;
+        @extend %border;
+        padding: 25px 45px 25px 45px;
+    }
+    &__client5-3{
+        @extend %display;
+        @extend %border;
+        padding: 25px 55px 25px 55px;
+    }
+    &__client2-1, &__client3-2{
+        @extend %display;
+        @extend %border;
+        padding: 25px 65px 25px 65px;
+    }
+    &__client6-3{
+        @extend %display;
+        box-sizing: border-box;
+        border: 1px solid rgb(175, 177, 184);
+        border-radius: 4px;
+        padding: 25px 45px 25px 45px;
+    }
+    &__client1-1:hover .icon{
+        fill: #2196F3;
+    }
+    &__client1-1{
+     @extend %display;
+        padding: 25px 65px 25px 65px;
+        @extend %border;
+    }
+    &__all-divs-last{
+        display: flex;
+        gap: 30px;
+    }
+    &__h-clients{
+        color: rgb(33, 33, 33);
+        
+
+    }
+    &__a-images-staff{
+        background:inherit; 
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px 10px 10px 10px;
+    }
+    &__a-images-staff:hover{
+        background: rgb(33, 150, 243);
+        border-radius: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+    &__socialimages{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        padding: 0px 0px 40px 0px;
+    }
+    
+    &__staff-text{
+        display: flex;
+        flex-direction: column;
+    }
+    &__staff{
+        display: flex;
+        flex-direction: column;
+        border-radius: 0px 0px 4px 4px;
+        box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2),0px 1px 1px 0px rgba(0, 0, 0, 0.14),0px 1px 3px 0px rgba(0, 0, 0, 0.12);
+        background: rgb(255, 255, 255);
+    }
+    
+    &__img-content-main3{
+        display: flex;
+        justify-content: space-evenly;
+        gap: 30px;
+        padding: 0px 0px 125px 0px;
+        background-color: #F5F4FA;
+    }
+    &__img-staff{
+        width: 270px;
+        height: 260px;
+        
+    }
+    &__h-text-main3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(33, 33, 33);
+        @include txtstyle(Roboto, 36px, 700, 42px, 3%, center);
+        padding: 95px 0px 50px 0px;
+        margin: 0;
+    }
+    &__p-main3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: rgb(117, 117, 117);
+        margin: 0;  
+        padding: 0px 0px 15px 0px;
+         @include txtstyle(Roboto, 16px, 400, 19px, 3%, center);
+    }
+    &__h-main3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+         color: rgb(33, 33, 33);
+        margin: 0;
+        padding: 30px 0px 10px 0px;
+        @include txtstyle(Roboto, 16px, 500, 19px, 3%, center);
+    }
+    &__img-content-h{
+        color: rgb(255, 255, 255);
+        text-transform: uppercase;
+        position: relative;
+        bottom: 80px;
+        padding: 30px 90px;
+        background: rgba(47, 48, 58, 0.8);
+        margin: 0;
+        @include txtstyle(Roboto, 14px, 700, 16px, 3%, center);
+    }
+    &__img-content{
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        padding: 0px 0px 190px 0px;
+    }
+    &__h-main2{
+        color: rgb(33, 33, 33);
+ 
+        text-align: center;
+    }
+    &__p-main1{
+        color: rgb(117, 117, 117);
+
+        margin: 0px;
+    }
+    &__h-main1{
+        color: rgb(33, 33, 33);
+
+        text-transform: uppercase;
+        margin: 0px;
+        padding: 30px 0px 10px 0px;
+    }
+    &__main2-img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background: rgb(245, 244, 250);
+        width: 270px;
+        height: 120px;
+    }
+    &__row1, &__row2{
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        width: 270px;
+        height: 248px;
+        gap: 30px;
+    }
+    &__main1-divs-img{
+        width: 55px;
+        height: 61px;
+    }
+    &__main1-divs{
+        display: flex;
+        flex-direction: column;
+    }
+    &__text-main1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        padding: 95px 0px 95px 0px;
+    }
+    &__all-items{
+        @extend %display;
+        flex-direction: column;
+        justify-content: center;
+        padding-bottom: 200px;
+    }
+    &__h{
+        color: rgb(255, 255, 255);
+        @include txtstyle(Roboto, 44px, 900, 60px, 6%, center);
+        text-transform: uppercase;
+        padding: 280px 250px 30px 250px;
+        margin: 0px;
+    }
+    &__button{
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        background: rgb(33, 150, 243);
+        border-style: none;
+        color: rgb(255, 255, 255);
+        padding: 10px 30px 10px 30px;
+        @include txtstyle(Roboto, 16px, 700, 30px, 6%, center);
+    }
+    &__last-sect{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__all-items-last{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 50px 0px 100px 0px;
+        margin: 0;
+    }
+    &__icon-first, &__icon-second , &__icon-third , &__icon-fourth , &__icon-fifth , &__icon-sixth {
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        stroke-width: 0;
+        stroke: currentColor;
+        fill: #AFB1B8;
+      }
+      &__icon-first{
+        width: 40px;
+        height: 45px;
+      }
+      &__icon-first:hover{
+        fill: #2196F3;
+      }
+      &__icon-second{
+        width: 40px;
+        height: 50px;
+      }
+      &__icon-second:hover{
+        fill: #2196F3;
+      }
+      &__icon-third{
+        width: 45px;
+        height: 40px;
+      }
+      &__icon-third:hover{
+        fill: #2196F3;
+      }
+      &__icon-fourth{
+        width: 85px;
+        height: 40px;
+      }
+      &__icon-fourth:hover{
+        fill: #2196F3;
+      }
+      &__icon-fifth{
+        width: 60px;
+        height: 45px;
+      }
+      &__icon-fifth:hover{
+        fill: #2196F3;
+      }
+      &__icon-sixth{
+        width: 90px;
+        height: 45px;
+      }
+      &__icon-sixth:hover{
+        fill: #2196F3;
+      }
+      &__tel:hover &__icon-smartphone{
+        fill: #2196F3;
+      }
+      &__email:hover &__icon-envelope-hover{
+        fill: #2196F3;
+      }
+      &__client1-1:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client1-1:hover &__icon-first{
+        fill: #2196F3;
+      }
+      &__client2-1:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client2-1:hover &__icon-second{
+        fill: #2196F3;
+      }
+      &__client3-2:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client3-2:hover &__icon-third{
+        fill: #2196F3;
+      }
+      &__client4-2:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client4-2:hover &__icon-fourth{
+        fill: #2196F3;
+      }
+      &__client5-3:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client5-3:hover &__icon-fifth{
+        fill: #2196F3;
+      }
+      &__client6-3:hover{
+        border: 1px solid #2196F3;
+      }
+      &__client6-3:hover &__icon-sixth{
+        fill: #2196F3;
+      }
+      &__section{
+        background: rgb(47, 48, 58);
+        @extend %display;
+        justify-content: center;
+      }
+    &__all-items1{
+        display: contents;
+    }
+    &__section1{
+        display: flex;
+        justify-content:  center;
+        align-items: center
+    }
+    &__staff-gp1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    &__staff-gp2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+    &__main-section3{
+    background-color: #F5F4FA;
+    }
+}
+.footer{
+
+    &__soc-links{
+    @extend %display;
+    gap: 20px;
+    justify-content: center;
+    }
+    &__a-images-footer:hover{
+        background: rgb(33, 150, 243);
+        border-radius: 30px;
+        padding: 10px 10px 10px 10px;
+    }
+    &__a-images-footer{
+        background: rgba(255, 255, 255, 0.1);
+        border-radius:50px;   
+        padding: 10px 10px 10px 10px;
+    }
+    &__social-links2{
+        padding: 70px 0px 100px 0px;
+    }
+    &__social-links-h{
+        color: rgb(255, 255, 255);
+
+        text-transform: uppercase;
+        margin: 0px;
+        padding-bottom: 20px;
+    }
+    &__phone{
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+    
+    &__email{
+        color: rgba(255, 255, 255, 0.6);
+
+    }
+    &__street{
+        color: rgb(255, 255, 255); 
+
+    }
+    &__address{
+        display: flex;
+        flex-direction: column;
+        padding: 20px 0px 60px 0px;
+        gap: 10px;
+    }
+    &__logo-link{
+        color: rgb(255, 255, 255);
+
+    padding: 60px 0px 0px 0px;
+    }
+    &__section{
+        background: rgb(47, 48, 58);
+    }
+    &__all-items{
+        display: flex;
+    }
+    &__social-links{
+        display: flex;
+        flex-direction: column;
+    }
+    &__span{
+        color:rgb(33, 150, 243);
+    }
+}

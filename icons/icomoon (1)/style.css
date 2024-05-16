@@ -1,130 +1,97 @@
-.icon {
-  display: inline-block;
-  width: 1em;
-  height: 1em;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-/* ==========================================
-Single-colored icons can be modified like so:
-.icon-name {
-  font-size: 32px;
-  color: red;
-}
-========================================== */
-
-.icon-first {
-  width: 41px;
-  height: 46.7px;
-  .icon {
+  .icon-first, .icon-second , .icon-third , .icon-fourth , .icon-fifth , .icon-sixth {
     display: inline-block;
     width: 1em;
     height: 1em;
     stroke-width: 0;
     stroke: currentColor;
-    fill: currentColor;
+    fill: #AFB1B8;
   }
-  .icon-first {
-    width: 0.900390625em;
+  &__tel:hover &__icon-smartphone{
+    fill: #2196F3;
   }
-}
+  &__email:hover &__icon-envelope-hover{
+    fill: #2196F3;
+  }
+  &__client1:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client1:hover &__icon-first{
+    fill: #2196F3;
+  }
+  &__client2:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client2:hover &__icon-second{
+    fill: #2196F3;
+  }
+  client3:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client3:hover &__icon-third{
+    fill: #2196F3;
+  }
+  &__client4:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client4:hover &__icon-fourth{
+    fill: #2196F3;
+  }
+  &__client5:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client5:hover &__icon-fifth{
+    fill: #2196F3;
+  }
+  &__client6:hover{
+    border: 1px solid #2196F3;
+  }
+  &__client6:hover &__icon-sixth{
+    fill: #2196F3;
+  }
 
-.icon-first:hover {
-  width: 41px;
-  height: 46.7px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
-  .icon-first {
-    width: 0.900390625em;
-  }
-}
 
 
-.icon-second {
-  width: 40px;
-  height: 52px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
-  }
-  .icon-second {
-    width: 0.76953125em;
-  }
-}
 
-.icon-third {
-  width: 43.46px;
-  height: 41.18px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+  .icon-first{
+    width: 40px;
+    height: 45px;
   }
-  .icon-third {
-    width: 0.953125em;
+  .icon-first:hover{
+    fill: #2196F3;
   }
-}
-
-.icon-fourth {
-  width: 84.44px;
-  height: 40.62px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+  .icon-second{
+    width: 40px;
+    height: 50px;
   }
-  .icon-fourth {
-    width: 1.8603515625em;
+  .icon-second:hover{
+    fill: #2196F3;
   }
-}
-
-.icon-fifth {
-  width: 65px;
-  height: 45px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+  .icon-third{
+    width: 45px;
+    height: 40px;
   }
-  .icon-fifth {
-    width: 1.2548828125em;
+  .icon-third:hover{
+    fill: #2196F3;
   }
-}
-
-.icon-sixth {
-  width: 80px;
-height: 40px;
-  .icon {
-    display: inline-block;
-    width: 1em;
-    height: 1em;
-    stroke-width: 0;
-    stroke: currentColor;
-    fill: currentColor;
+  .icon-fourth{
+    width: 85px;
+    height: 40px;
   }
-}
-.icon-sixth .icon{
-  width: 1.9345703125em;
-
-}
+  .icon-fourth:hover{
+    fill: #2196F3;
+  }
+  .icon-fifth{
+    width: 60px;
+    height: 45px;
+  }
+  .icon-fifth:hover{
+    fill: #2196F3;
+  }
+  .icon-sixth{
+    width: 90px;
+    height: 45px;
+  }
+  .icon-sixth:hover{
+    fill: #2196F3;
+  }
+  
